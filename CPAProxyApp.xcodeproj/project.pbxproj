@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D035E56269D8FA7C073C27F /* CPAProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB58A82846D70E704CB9AF1D /* CPAProxy.framework */; };
+		DBA846C6233298D9002F173A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA846C5233298D9002F173A /* AppDelegate.swift */; };
+		DBA846C8233298D9002F173A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA846C7233298D9002F173A /* ViewController.swift */; };
+		DBA846CB233298D9002F173A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA846C9233298D9002F173A /* Main.storyboard */; };
+		DBA846CE233298DA002F173A /* CPAProxyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBA846CC233298DA002F173A /* CPAProxyApp.xcdatamodeld */; };
+		DBA846D0233298E1002F173A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA846CF233298E1002F173A /* Assets.xcassets */; };
+		DBA846D3233298E1002F173A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA846D1233298E1002F173A /* LaunchScreen.storyboard */; };
+		DBA846DE233298E1002F173A /* CPAProxyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA846DD233298E1002F173A /* CPAProxyAppTests.swift */; };
+		DBA846E9233298E1002F173A /* CPAProxyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA846E8233298E1002F173A /* CPAProxyAppUITests.swift */; };
+		F261F01C102C603E21760BA6 /* Pods_CPAProxyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8774F3E850706060AF5375D2 /* Pods_CPAProxyApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBA846DA233298E1002F173A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBA846BA233298D9002F173A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA846C1233298D9002F173A;
+			remoteInfo = CPAProxyApp;
+		};
+		DBA846E5233298E1002F173A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBA846BA233298D9002F173A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA846C1233298D9002F173A;
+			remoteInfo = CPAProxyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1B22576E6E3AC6B5C725E8 /* Pods-CPAProxyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPAProxyApp.debug.xcconfig"; path = "Target Support Files/Pods-CPAProxyApp/Pods-CPAProxyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		627057845BB59931E64265DC /* Pods-CPAProxyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPAProxyApp.release.xcconfig"; path = "Target Support Files/Pods-CPAProxyApp/Pods-CPAProxyApp.release.xcconfig"; sourceTree = "<group>"; };
+		8774F3E850706060AF5375D2 /* Pods_CPAProxyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPAProxyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58A82846D70E704CB9AF1D /* CPAProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPAProxy.framework; path = CPAProxy/CPAProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB216A532333E91800528346 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DBA846C2233298D9002F173A /* CPAProxyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPAProxyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA846C5233298D9002F173A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBA846C7233298D9002F173A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBA846CA233298D9002F173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA846CD233298DA002F173A /* CPAProxyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CPAProxyApp.xcdatamodel; sourceTree = "<group>"; };
+		DBA846CF233298E1002F173A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBA846D2233298E1002F173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBA846D4233298E1002F173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA846D9233298E1002F173A /* CPAProxyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPAProxyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA846DD233298E1002F173A /* CPAProxyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPAProxyAppTests.swift; sourceTree = "<group>"; };
+		DBA846DF233298E1002F173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA846E4233298E1002F173A /* CPAProxyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPAProxyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA846E8233298E1002F173A /* CPAProxyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPAProxyAppUITests.swift; sourceTree = "<group>"; };
+		DBA846EA233298E1002F173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA846BF233298D9002F173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D035E56269D8FA7C073C27F /* CPAProxy.framework in Frameworks */,
+				F261F01C102C603E21760BA6 /* Pods_CPAProxyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA846D6233298E1002F173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA846E1233298E1002F173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		894696C2AA9E6C273136B6A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB216A532333E91800528346 /* libz.tbd */,
+				AB58A82846D70E704CB9AF1D /* CPAProxy.framework */,
+				8774F3E850706060AF5375D2 /* Pods_CPAProxyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBA846B9233298D9002F173A = {
+			isa = PBXGroup;
+			children = (
+				DBA846C4233298D9002F173A /* CPAProxyApp */,
+				DBA846DC233298E1002F173A /* CPAProxyAppTests */,
+				DBA846E7233298E1002F173A /* CPAProxyAppUITests */,
+				DBA846C3233298D9002F173A /* Products */,
+				F44F8B7629FBBC5FB585823C /* Pods */,
+				894696C2AA9E6C273136B6A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA846C3233298D9002F173A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA846C2233298D9002F173A /* CPAProxyApp.app */,
+				DBA846D9233298E1002F173A /* CPAProxyAppTests.xctest */,
+				DBA846E4233298E1002F173A /* CPAProxyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA846C4233298D9002F173A /* CPAProxyApp */ = {
+			isa = PBXGroup;
+			children = (
+				DBA846C5233298D9002F173A /* AppDelegate.swift */,
+				DBA846C7233298D9002F173A /* ViewController.swift */,
+				DBA846C9233298D9002F173A /* Main.storyboard */,
+				DBA846CF233298E1002F173A /* Assets.xcassets */,
+				DBA846D1233298E1002F173A /* LaunchScreen.storyboard */,
+				DBA846D4233298E1002F173A /* Info.plist */,
+				DBA846CC233298DA002F173A /* CPAProxyApp.xcdatamodeld */,
+			);
+			path = CPAProxyApp;
+			sourceTree = "<group>";
+		};
+		DBA846DC233298E1002F173A /* CPAProxyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBA846DD233298E1002F173A /* CPAProxyAppTests.swift */,
+				DBA846DF233298E1002F173A /* Info.plist */,
+			);
+			path = CPAProxyAppTests;
+			sourceTree = "<group>";
+		};
+		DBA846E7233298E1002F173A /* CPAProxyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBA846E8233298E1002F173A /* CPAProxyAppUITests.swift */,
+				DBA846EA233298E1002F173A /* Info.plist */,
+			);
+			path = CPAProxyAppUITests;
+			sourceTree = "<group>";
+		};
+		F44F8B7629FBBC5FB585823C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B22576E6E3AC6B5C725E8 /* Pods-CPAProxyApp.debug.xcconfig */,
+				627057845BB59931E64265DC /* Pods-CPAProxyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA846C1233298D9002F173A /* CPAProxyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA846ED233298E1002F173A /* Build configuration list for PBXNativeTarget "CPAProxyApp" */;
+			buildPhases = (
+				5B2BA7EF6BACCE407EC4F7A3 /* [CP] Check Pods Manifest.lock */,
+				DBA846BE233298D9002F173A /* Sources */,
+				DBA846BF233298D9002F173A /* Frameworks */,
+				DBA846C0233298D9002F173A /* Resources */,
+				7FF131AD4A1EC40504668CB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPAProxyApp;
+			productName = CPAProxyApp;
+			productReference = DBA846C2233298D9002F173A /* CPAProxyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBA846D8233298E1002F173A /* CPAProxyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA846F0233298E1002F173A /* Build configuration list for PBXNativeTarget "CPAProxyAppTests" */;
+			buildPhases = (
+				DBA846D5233298E1002F173A /* Sources */,
+				DBA846D6233298E1002F173A /* Frameworks */,
+				DBA846D7233298E1002F173A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBA846DB233298E1002F173A /* PBXTargetDependency */,
+			);
+			name = CPAProxyAppTests;
+			productName = CPAProxyAppTests;
+			productReference = DBA846D9233298E1002F173A /* CPAProxyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBA846E3233298E1002F173A /* CPAProxyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA846F3233298E1002F173A /* Build configuration list for PBXNativeTarget "CPAProxyAppUITests" */;
+			buildPhases = (
+				DBA846E0233298E1002F173A /* Sources */,
+				DBA846E1233298E1002F173A /* Frameworks */,
+				DBA846E2233298E1002F173A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBA846E6233298E1002F173A /* PBXTargetDependency */,
+			);
+			name = CPAProxyAppUITests;
+			productName = CPAProxyAppUITests;
+			productReference = DBA846E4233298E1002F173A /* CPAProxyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA846BA233298D9002F173A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Cesar;
+				TargetAttributes = {
+					DBA846C1233298D9002F173A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DBA846D8233298E1002F173A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DBA846C1233298D9002F173A;
+					};
+					DBA846E3233298E1002F173A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DBA846C1233298D9002F173A;
+					};
+				};
+			};
+			buildConfigurationList = DBA846BD233298D9002F173A /* Build configuration list for PBXProject "CPAProxyApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA846B9233298D9002F173A;
+			productRefGroup = DBA846C3233298D9002F173A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA846C1233298D9002F173A /* CPAProxyApp */,
+				DBA846D8233298E1002F173A /* CPAProxyAppTests */,
+				DBA846E3233298E1002F173A /* CPAProxyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA846C0233298D9002F173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA846D3233298E1002F173A /* LaunchScreen.storyboard in Resources */,
+				DBA846D0233298E1002F173A /* Assets.xcassets in Resources */,
+				DBA846CB233298D9002F173A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA846D7233298E1002F173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA846E2233298E1002F173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B2BA7EF6BACCE407EC4F7A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPAProxyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF131AD4A1EC40504668CB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CPAProxyApp/Pods-CPAProxyApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CPAProxy/CPAProxy.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPAProxy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPAProxyApp/Pods-CPAProxyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA846BE233298D9002F173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA846CE233298DA002F173A /* CPAProxyApp.xcdatamodeld in Sources */,
+				DBA846C8233298D9002F173A /* ViewController.swift in Sources */,
+				DBA846C6233298D9002F173A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA846D5233298E1002F173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA846DE233298E1002F173A /* CPAProxyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA846E0233298E1002F173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA846E9233298E1002F173A /* CPAProxyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBA846DB233298E1002F173A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBA846C1233298D9002F173A /* CPAProxyApp */;
+			targetProxy = DBA846DA233298E1002F173A /* PBXContainerItemProxy */;
+		};
+		DBA846E6233298E1002F173A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBA846C1233298D9002F173A /* CPAProxyApp */;
+			targetProxy = DBA846E5233298E1002F173A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBA846C9233298D9002F173A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA846CA233298D9002F173A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBA846D1233298E1002F173A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA846D2233298E1002F173A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBA846EB233298E1002F173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.4;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		DBA846EC233298E1002F173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos11.4;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		DBA846EE233298E1002F173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1B22576E6E3AC6B5C725E8 /* Pods-CPAProxyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CPAProxyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"crypto\"",
+					"-l\"curve25519_donna\"",
+					"-l\"ed25519_donna\"",
+					"-l\"ed25519_ref10\"",
+					"-l\"event\"",
+					"-l\"event_core\"",
+					"-l\"event_extra\"",
+					"-l\"event_openssl\"",
+					"-l\"event_pthreads\"",
+					"-l\"keccak-tiny\"",
+					"-l\"lzma\"",
+					"-l\"or-trunnel\"",
+					"-l\"ssl\"",
+					"-l\"tor-app\"",
+					"-l\"tor-buf\"",
+					"-l\"tor-compress\"",
+					"-l\"tor-container\"",
+					"-l\"tor-crypt-ops\"",
+					"-l\"tor-ctime\"",
+					"-l\"tor-encoding\"",
+					"-l\"tor-err\"",
+					"-l\"tor-evloop\"",
+					"-l\"tor-fdio\"",
+					"-l\"tor-fs\"",
+					"-l\"tor-geoip\"",
+					"-l\"tor-intmath\"",
+					"-l\"tor-lock\"",
+					"-l\"tor-log\"",
+					"-l\"tor-malloc\"",
+					"-l\"tor-math\"",
+					"-l\"tor-memarea\"",
+					"-l\"tor-meminfo\"",
+					"-l\"tor-net\"",
+					"-l\"tor-osinfo\"",
+					"-l\"tor-process\"",
+					"-l\"tor-sandbox\"",
+					"-l\"tor-smartlist-core\"",
+					"-l\"tor-string\"",
+					"-l\"tor-term\"",
+					"-l\"tor-thread\"",
+					"-l\"tor-time\"",
+					"-l\"tor-tls\"",
+					"-l\"tor-trace\"",
+					"-l\"tor-version\"",
+					"-l\"tor-wallclock\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CPAProxy\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"Security\"",
+					"-v",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyckan.cpaproxyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos11.4;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		DBA846EF233298E1002F173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627057845BB59931E64265DC /* Pods-CPAProxyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CPAProxyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"crypto\"",
+					"-l\"curve25519_donna\"",
+					"-l\"ed25519_donna\"",
+					"-l\"ed25519_ref10\"",
+					"-l\"event\"",
+					"-l\"event_core\"",
+					"-l\"event_extra\"",
+					"-l\"event_openssl\"",
+					"-l\"event_pthreads\"",
+					"-l\"keccak-tiny\"",
+					"-l\"lzma\"",
+					"-l\"or-trunnel\"",
+					"-l\"ssl\"",
+					"-l\"tor-app\"",
+					"-l\"tor-buf\"",
+					"-l\"tor-compress\"",
+					"-l\"tor-container\"",
+					"-l\"tor-crypt-ops\"",
+					"-l\"tor-ctime\"",
+					"-l\"tor-encoding\"",
+					"-l\"tor-err\"",
+					"-l\"tor-evloop\"",
+					"-l\"tor-fdio\"",
+					"-l\"tor-fs\"",
+					"-l\"tor-geoip\"",
+					"-l\"tor-intmath\"",
+					"-l\"tor-lock\"",
+					"-l\"tor-log\"",
+					"-l\"tor-malloc\"",
+					"-l\"tor-math\"",
+					"-l\"tor-memarea\"",
+					"-l\"tor-meminfo\"",
+					"-l\"tor-net\"",
+					"-l\"tor-osinfo\"",
+					"-l\"tor-process\"",
+					"-l\"tor-sandbox\"",
+					"-l\"tor-smartlist-core\"",
+					"-l\"tor-string\"",
+					"-l\"tor-term\"",
+					"-l\"tor-thread\"",
+					"-l\"tor-time\"",
+					"-l\"tor-tls\"",
+					"-l\"tor-trace\"",
+					"-l\"tor-version\"",
+					"-l\"tor-wallclock\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CPAProxy\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"Security\"",
+					"-v",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyckan.cpaproxyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos11.4;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		DBA846F1233298E1002F173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CPAProxyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kadevjo.CPAProxyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPAProxyApp.app/CPAProxyApp";
+			};
+			name = Debug;
+		};
+		DBA846F2233298E1002F173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CPAProxyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kadevjo.CPAProxyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPAProxyApp.app/CPAProxyApp";
+			};
+			name = Release;
+		};
+		DBA846F4233298E1002F173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CPAProxyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kadevjo.CPAProxyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPAProxyApp;
+			};
+			name = Debug;
+		};
+		DBA846F5233298E1002F173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CPAProxyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kadevjo.CPAProxyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPAProxyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA846BD233298D9002F173A /* Build configuration list for PBXProject "CPAProxyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA846EB233298E1002F173A /* Debug */,
+				DBA846EC233298E1002F173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA846ED233298E1002F173A /* Build configuration list for PBXNativeTarget "CPAProxyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA846EE233298E1002F173A /* Debug */,
+				DBA846EF233298E1002F173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA846F0233298E1002F173A /* Build configuration list for PBXNativeTarget "CPAProxyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA846F1233298E1002F173A /* Debug */,
+				DBA846F2233298E1002F173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA846F3233298E1002F173A /* Build configuration list for PBXNativeTarget "CPAProxyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA846F4233298E1002F173A /* Debug */,
+				DBA846F5233298E1002F173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBA846CC233298DA002F173A /* CPAProxyApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBA846CD233298DA002F173A /* CPAProxyApp.xcdatamodel */,
+			);
+			currentVersion = DBA846CD233298DA002F173A /* CPAProxyApp.xcdatamodel */;
+			path = CPAProxyApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBA846BA233298D9002F173A /* Project object */;
+}
